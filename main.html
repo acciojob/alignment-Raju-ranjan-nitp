@@ -3,93 +3,72 @@
 <html>
 
 <head>
-    	<link rel="stylesheet" href="styles.css"> 
-	    <title>HTML Assignment 3</title>
+	<link rel="stylesheet" href="styles.css">
+	<title>HTML Assignment 3</title>
 </head>
-
 <body>
 	<!-- the entire body must be written by student -->
-	<th align="center">HTML Assignment #3</th>
-	<table class="middle" id="table-1" border="1">
-		
-		<tr id="t11">
-			<td>left</td>
-			<td align="center">center</td>
-			<td align="right">right</td>
-		</tr>
-		<tr id="t12">
-			<td>left</td>
-			<td align="center">center</td>
-			<td align="center">right</td>
-		</tr>
-		<tr id="t13">
-			<td>left</td>
-			<td align="center">center</td>
-			<td align="right">right</td>
-		</tr>
-	</table>
-	<table class="middle" id="table-2" border="1">
-		<tr>
-			<td colspan="6">1</td>
-			
-			
-	    </tr>
-		<tr id="t21">
-			<td  colspan="1" rowspan="4">2</td> 
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
-			<td>7</td>
-			
-	    </tr>
-		<tr>
-			
-			<td>8</td>
-			<td colspan="3" rowspan="2">9</td>
-			<td>10</td>
-			
-			
-	    </tr>
-		<tr>
-			
-			<td>8</td>
-			
-			<td>10</td>
-			
-			
-	    </tr>
-		<tr>
-			
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			
-	    </tr>
-		<tr>
-			<td colspan="6">1</td>
-			
-			
-	    </tr>
-		
-	</table>
-	<table class="middle" id="table-3" border="1">
-		
-		<tr>
-			<td bgcolor="green">jkj</td>
-		</tr>
-		<tr align="center">
-			<td> <img id="t-image" src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="man img"></td>
-		</tr>
-		<tr>
-			<td  bgcolor="blue">dlmvlfjkgoirj</td>
-		</tr>
-	</table>
     <script type="text/javascript" src="./script.js">
 </script>
+	<center><h1>HTML Assignment #3</h1></center>
+<div class="container">
+<table class="middle" id="table-1">
+	<tr> 
+		<td id="t11">left</td>
+		<td>center</td>
+		<td>right</td>
+	</tr>
+		<tr >
+		<td id="t12" class="center">left</td>
+		<td>center</td>
+		<td>right</td>
+	</tr>
+		<tr >
+		<td id="t13" class="right">left</td>
+		<td>center</td>
+		<td>right</td>
+	</tr>
+</table>
 
+	<table class="middle" id="table-2">
+	<tr> <!-- 1st -->
+		<td id="t21" colspan="6"></td> 
+	</tr>
+	<tr> <!-- 2nd -->
+		<td rowspan="4"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr> <!-- 3rd -->
+		<td></td>
+		<td rowspan="2" colspan="3"></td>
+		<td></td>
+	</tr>
+	<tr> <!-- 4th -->
+		<td></td>
+		<td></td>
+<!-- 		<td></td> -->
+	</tr>
+	<tr> <!-- 5th -->
+		<td rowspan="4"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	<td></td>		
+	</tr>
+	<tr> <!-- 6th -->
+		<td id="t21" colspan="6"></td> 
+	</tr>
+</table>
+	<table id="table-3" class="middle">
+		<tr><td id="t31"></td></tr>
+		<tr><td id="t-image"><center><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"> </center></td></tr>
+		<tr><td id="t33"></td></tr>
+	</table>
+</div>
 </body>
 
 </html>
